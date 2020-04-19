@@ -4,11 +4,11 @@ rgb_feat_model_ckpt: checkpoints/color-model.pth
 MiDaS_model_ckpt: MiDaS/model.pt
 fps: 30
 num_frames: 120
-x_shift_range: [-0.00]
-y_shift_range: [-0.12]
-z_shift_range: [-0.00]
-traj_types: ['straight-line']
-video_postfix: ['scroll']
+x_shift_range: [-0.05]
+y_shift_range: [-0.05]
+z_shift_range: [-0.05]
+traj_types: ['circle']
+video_postfix: ['circle']
 specific: ''
 longer_side_len: 320
 src_folder: image
