@@ -2,13 +2,15 @@ depth_edge_model_ckpt: checkpoints/edge-model.pth
 depth_feat_model_ckpt: checkpoints/depth-model.pth
 rgb_feat_model_ckpt: checkpoints/color-model.pth
 MiDaS_model_ckpt: MiDaS/model.pt
+fps: 30
+num_frames: 120
 x_shift_range: [-0.00]
 y_shift_range: [-0.12]
 z_shift_range: [-0.00]
 traj_types: ['straight-line']
 video_postfix: ['scroll']
 specific: ''
-longer_side_len: 960
+longer_side_len: 320
 src_folder: image
 depth_folder: depth
 mesh_folder: mesh
